@@ -1,12 +1,10 @@
 "# Algorithms-and-Data-structures" 
 "# buttery_callum_ads" 
-"# buttery_callum_ads" 
-"# buttery_callum_ads" 
-"# buttery_callum_ads" 
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INSTRUCTIONS ON HOW TO USE
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+INSTRUCTIONS ON HOW TO USE!!!!
+
 
 1) Executable folder - this contains exe file which can be downloaded and ran
 
