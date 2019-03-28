@@ -101,7 +101,7 @@ void boardCreation()
 
 
 //method used to check if the tile the user has entered is free
-void inputChecker(int playerSelection, int currentMove)
+int inputChecker(int playerSelection, int currentMove)
 {
 	//if the tile enterd is a 0 (emptySpaces) then we enter the if statement
 	if (gameBoard[playerSelection] == emptySpaces)
@@ -114,6 +114,7 @@ void inputChecker(int playerSelection, int currentMove)
 			gameBoard[playerSelection] = crosses;
 			//displays updated gameboard with the players updated move
 			displayGameBoard();
+			return playerSelection;
 
 		}
 		//if current move is equal to 2 then this means the current player has the board icon noughts
@@ -124,8 +125,11 @@ void inputChecker(int playerSelection, int currentMove)
 			gameBoard[playerSelection] = noughts;
 			//displaying updated gameboard with the players updated move
 			displayGameBoard();
+			return playerSelection;
 
 		}
+		
+	
 	}
 	//if the player has entered a tile which is already taken then we will enter this else statement
 	else
@@ -149,9 +153,12 @@ void inputChecker(int playerSelection, int currentMove)
 					//displaying updated gameboard with the players updated move
 					displayGameBoard();
 					checkerLoop = 1;
+					return playerSelection;
 				}
+				
 
 			}
+			
 			//if the currentMove is equal to anything other than one we enter the else statement, this means the player is playertwo which is noughts
 			else
 			{
@@ -166,11 +173,15 @@ void inputChecker(int playerSelection, int currentMove)
 					//displaying updated gameboard with the players updated move
 					displayGameBoard();
 					checkerLoop = 1;
+					return playerSelection;
 				}
+				
 			}
+	
 
 		}
-	}
+		
+	}return playerSelection;
 }
 
 
