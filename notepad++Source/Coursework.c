@@ -2478,6 +2478,12 @@ void Playermoves()
 	//requests the user enters a tile
 	printf("\nEnter tile number %s", playerone);
 	scanf("%d", &playerSelection);
+	
+	while(playerSelection < 0 || playerSelection > 8)
+	{
+		printf("\nEnter tile number %s", playerone);
+		scanf("%d", &playerSelection);
+	}
 
 
 	//current move 1 is always assigned to playerone/crosses
@@ -2562,6 +2568,13 @@ void Playermoves()
 	//requests the user enters a tile
 	printf("\nEnter tile number %s", playertwo);
 	scanf("%d", &playerSelection);
+	
+	while(playerSelection < 0 || playerSelection > 8)
+	{
+		printf("\nEnter tile number %s", playerone);
+		scanf("%d", &playerSelection);
+	}
+
 	//current move 1 is always assigned to playerone/crosses
 	currentMove = 2;
 	moveCounter = moveCounter + 1;
@@ -2637,6 +2650,13 @@ void Playermoves()
 	//requests the user enters a tile
 	printf("\nEnter tile number %s", playerone);
 	scanf("%d", &playerSelection);
+	
+	while(playerSelection < 0 || playerSelection > 8)
+	{
+		printf("\nEnter tile number %s", playerone);
+		scanf("%d", &playerSelection);
+	}
+
 	//current move 1 is always assigned to playerone/crosses
 	currentMove = 1;
 	moveCounter = moveCounter + 1;
@@ -2713,6 +2733,13 @@ void Playermoves()
 	//requests the user enters a tile
 	printf("\nEnter tile number %s", playertwo);
 	scanf("%d", &playerSelection);
+	
+	while(playerSelection < 0 || playerSelection > 8)
+	{
+		printf("\nEnter tile number %s", playerone);
+		scanf("%d", &playerSelection);
+	}
+
 	//current move 1 is always assigned to playerone/crosses
 	currentMove = 2;
 	moveCounter = moveCounter + 1;
@@ -2789,6 +2816,13 @@ void Playermoves()
 	//requests the user enters a tile
 	printf("\nEnter tile number %s", playerone);
 	scanf("%d", &playerSelection);
+	
+	while(playerSelection < 0 || playerSelection > 8)
+	{
+		printf("\nEnter tile number %s", playerone);
+		scanf("%d", &playerSelection);
+	}
+
 	//current move 1 is always assigned to playerone/crosses
 	currentMove = 1;
 	moveCounter = moveCounter + 1;
@@ -2865,6 +2899,12 @@ void Playermoves()
 	//requests the user enters a tile
 	printf("\nEnter tile number %s", playertwo);
 	scanf("%d", &playerSelection);
+	while(playerSelection < 0 || playerSelection > 8)
+	{
+		printf("\nEnter tile number %s", playerone);
+		scanf("%d", &playerSelection);
+	}
+
 	//current move 1 is always assigned to playerone/crosses
 	currentMove = 2;
 	moveCounter = moveCounter + 1;
@@ -2941,6 +2981,13 @@ void Playermoves()
 	//requests the user enters a tile
 	printf("\nEnter tile number %s", playerone);
 	scanf("%d", &playerSelection);
+	
+	while(playerSelection < 0 || playerSelection > 8)
+	{
+		printf("\nEnter tile number %s", playerone);
+		scanf("%d", &playerSelection);
+	}
+
 	//current move 1 is always assigned to playerone/crosses
 	currentMove = 1;
 	moveCounter = moveCounter + 1;
@@ -3017,6 +3064,13 @@ void Playermoves()
 	//requests the user enters a tile
 	printf("\nEnter tile number %s", playertwo);
 	scanf("%d", &playerSelection);
+	
+	while(playerSelection < 0 || playerSelection > 8)
+	{
+		printf("\nEnter tile number %s", playerone);
+		scanf("%d", &playerSelection);
+	}
+
 	//current move 1 is always assigned to playerone/crosses
 	currentMove = 2;
 	moveCounter = moveCounter + 1;
@@ -3093,6 +3147,13 @@ void Playermoves()
 	//requests the user enters a tile
 	printf("\nEnter tile number %s", playerone);
 	scanf("%d", &playerSelection);
+	
+	while(playerSelection < 0 || playerSelection > 8)
+	{
+		printf("\nEnter tile number %s", playerone);
+		scanf("%d", &playerSelection);
+	}
+
 	//current move 1 is always assigned to playerone/crosses
 	currentMove = 1;
 	moveCounter = moveCounter + 1;
